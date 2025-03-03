@@ -4,7 +4,7 @@ import Home from '../Compontents/Home'
 import Main from '../Compontents/Main/Main'
 import Shop from '../Compontents/Shop'
 import About from '../Compontents/About'
-import Blog from '../Compontents/blog'
+import Blog from '../Compontents/Blog'
 import Page from '../Compontents/Page'
 import Contact from '../Compontents/Contact'
 
