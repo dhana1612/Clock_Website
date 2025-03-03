@@ -18,7 +18,6 @@ export default function AppRouter() {
         <Route path="/About" element={<About/>} />
         <Route path="/pages" element={<Page/>}/>
         <Route path="/contact" element={<Contact/>}/>
-        {/* <Route path="/blog" element={<Blog/>}/> */}
         </Route>
     </Routes>
     </BrowserRouter>
