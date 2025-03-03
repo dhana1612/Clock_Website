@@ -25,9 +25,8 @@ export default function Header() {
           <Link to="/shop">Shop</Link>
           <Link to="/about">About</Link>
           <Link to="/shop">Latest<span><sup className="bg-red-500 px-1 text-xs text-white rounded">Hot</sup></span></Link>
-          <Link to="/blog">Blog</Link>
-          <a href="/pages">Pages</a>
-          <a href="/contact">Contact</a>
+          <Link to="/pages">Pages</Link>
+          <Link to="/contact">Contact</Link>
 
         </div>
 
