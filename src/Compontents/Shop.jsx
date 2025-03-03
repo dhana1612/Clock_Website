@@ -4,20 +4,28 @@ export default function Shop() {
   return (
     <>
     
-    <section className="py-42 bg-[url(https://preview.colorlib.com/theme/timezone/assets/img/hero/about_hero.png)]">
+    <section className="py-22 md:py-42 bg-[url(https://preview.colorlib.com/theme/timezone/assets/img/hero/about_hero.png)]">
         <div className="flex justify-center">
-            <h2 className='font-bold text-7xl py-10 text-indigo-950 '>Watch Shop</h2>
+            <h2 className='font-bold text-4xl md:text-7xl py-10 text-indigo-950 '>Watch Shop</h2>
         </div>
     </section>
 
 
-    <section className="max-w-[85rem] mx-auto py-20">
+    <section className="max-w-[85rem] mx-auto py-20 px-5">
         
-        <div className ="py-10">
-                <div >
-                <a href="" className="pr-8 text-xl">NewestArrivals</a>
-                <a href="" className="pr-8 text-xl">Price High To Low</a>
-                <a href="" className="pr-8 text-xl">Most Popular</a>
+        <div className ="py-10 ">
+                <div className='text-lg lg:text-2xl flex flex-wrap gap-3'>  
+                    <div>
+                        <a href="" className="pr-2 ">NewestArrivals</a>
+                    </div>
+
+                    <div>
+                        <a href="" className="pr-2">Price High To Low</a>
+                    </div>
+
+                    <div>
+                        <a href="" className="pr-2 ">Most Popular</a>
+                    </div>
                 </div>
 
 

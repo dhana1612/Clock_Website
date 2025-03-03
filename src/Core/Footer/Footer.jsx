@@ -4,24 +4,24 @@ export default function Footer() {
   return (
     <>
 
-    <section className="max-w-[85rem] mx-auto bg-red-600 text-white mt-20">
-      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-5 pt-15'>
+    <section className="max-w-[85rem] mx-auto text-white mt-10 px-5  ">
+      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 p-15 pt-15  bg-red-600'>
 
           <div>
             <i className="fa-solid fa-box text-white pb-2 text-4xl"></i>
-            <h1 className='font-bold text-2xl pb-4'>Free shipping Method</h1>
+            <h1 className='font-bold text-xl pb-4'>Free shipping Method</h1>
             <p className='text-lg'>aorem ixpsacdolor sit ameasecur adipisicing elitsf edasd.</p>
           </div>
 
           <div>
             <i className="fa-solid fa-lock  text-white pb-2 text-4xl"></i>
-            <h1 className='font-bold text-2xl pb-4'>Secure Payment System</h1>
+            <h1 className='font-bold text-xl pb-4'>Secure Payment System</h1>
             <p className='text-lg'>aorem ixpsacdolor sit ameasecur adipisicing elitsf edasd.</p>
           </div>
 
           <div>
             <i className="fa-solid fa-recycle  text-white pb-2 text-4xl"></i>
-            <h1 className='font-bold text-2xl pb-4'>Secure Payment System</h1>
+            <h1 className='font-bold text-xl pb-4'>Secure Payment System</h1>
             <p className='text-lg'>aorem ixpsacdolor sit ameasecur adipisicing elitsf edasd.</p>
           </div>
 
@@ -30,9 +30,9 @@ export default function Footer() {
 
 
 
-    <section className="max-w-[85rem] mx-auto pt-40 pb-20">
+    <section className="max-w-[85rem] mx-auto py-30 px-5">
 
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+    <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-10">
 
       <div>
         <img src = "https://preview.colorlib.com/theme/timezone/assets/img/logo/logo.png" className='pb-10'></img>
@@ -66,7 +66,7 @@ export default function Footer() {
     </div>
 
 
-    <div className='pt-20 flex justify-between'>
+    <div className='pt-20 flex justify-between flex-wrap gap-y-4'>
       <div>
         <p className='text-slate-500'>Copyright ©2025 All rights reserved | This template is made with <span className='text-red-600'><i class="fa-solid fa-heart"></i></span> by <span className='text-red-600'>Colorlib</span></p>
       </div>
